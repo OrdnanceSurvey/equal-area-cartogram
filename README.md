@@ -38,33 +38,33 @@ The cartogram preserves the grouping of LADs into the UK regions (formerly Gover
   <img width="1400" src="local-authority-district/data-visualisation/lad-cartogram-square-wales-population-change-1991-2017.png" alt="Percentage population change in Wales between 1991 and 2017 by local authority district">
 </p>
 
-### Features
+## Features
 
-#### Subdivisions
+### Subdivisions
 
 Each LAD square has been subdivided into 100 nested squares. The subdivisions support the visualisation of data dimensionality against each LAD. The subdivisions reference the parent LAD and are uniquely identifiable through an integer sequence based upon y, x ascending.
 
-#### Centroids
+### Centroids
 
 The centroid of each LAD square is provided to support proportional symbol generation or other visualisation techniques that require a point geometry.
 
-#### Government Statistical Service (GSS) Codes and Names
+### Government Statistical Service (GSS) Codes and Names
 
 Each LAD square references the GSS code and name for the LAD, region and country.
 
-#### Local Authority District - Region - Country Lookup
+### Local Authority District - Region - Country Lookup
 
 Each LAD square references the region and country it is part of.
 
-#### Local Authority District 2018 - 2019 Lookup
+### Local Authority District 2018 - 2019 Lookup
 
 A GSS code and name lookup is provided for LADs which existed in 2018 but have been amalgamated into new LADs in 2019. This lookup allows users to map pre-2019 insights at local authority-level to the 2019 baseline.
 
-#### Welsh Naming
+### Welsh Naming
 
 LAD squares in Wales reference the Welsh name in addition to the English name, and all LAD squares reference the Welsh names for the region and country.
 
-#### Geographic Sequential Identifiers
+### Geographic Sequential Identifiers
 
 Each LAD square is uniquely identifiable through a series of sequential identifiers based upon y, x ascending. There are three different identifiers:
 
@@ -74,19 +74,19 @@ Each LAD square is uniquely identifiable through a series of sequential identifi
 
 These identifiers may be useful when labelling each LAD square and including accompanying lookup tables next to charts where space is of a premium and using the 9-character GSS codes isn't a viable option.
 
-#### Region Outlines
+### Region Outlines
 
 Region outlines are provided as linestring geometries and refer to the GSS code, name and Welsh name for each region.
 
-#### Region Divisions
+### Region Divisions
 
 Region divisions are provided as linestring geometries and refer to the two regions separated by each division.
 
-#### Country Outlines
+### Country Outlines
 
 Country outlines are provided as linestring geometry and refer to the GSS code, name and Welsh name for each country.
 
-#### Country Divisions
+### Country Divisions
 
 Country divisions are provided as linestring geometries and refer to the two countries separated by each division.
 
@@ -94,21 +94,21 @@ Country divisions are provided as linestring geometries and refer to the two cou
 
 The cartogram geometry is referenced against a arbitrary cartesian grid and does not reference a 'real-world' coordinate reference system.  
 
-### Data Formats
+## Data Formats
 
-#### CSV
+### CSV
 
 Each layer of the cartogram is provided as a seperate CSV file. The geometry is encoded using a well known text (WKT) representation.
 
 [../local-authority-district/data/csv](../local-authority-district/data/csv)
 
-#### GeoPackage
+### GeoPackage
 
 The layers of the cartogram are provided as individual tables / layers within a single SQLite database container.
 
 [../local-authority-district/data/geopackage](../local-authority-district/data/geopackage)
 
-#### geofacet
+### geofacet
 
 The [geofacet](https://hafen.github.io/geofacet/) R package provides a ggplot2 faceting function based upon square equal area cartogram grids.
 
@@ -116,7 +116,7 @@ The R code and geofacet-specific CSV format for the cartogram is provided so tha
 
 [../local-authority-district/data/r-geofacet](../local-authority-district/data/r-geofacet)
 
-#### SVG
+### SVG
 
 The geometries of the cartogram are provided in a single SVG file.
 
