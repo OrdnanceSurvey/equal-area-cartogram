@@ -23,15 +23,11 @@ The cartogram preserves the grouping of LADs into the UK regions (formerly Gover
 [../local-authority-district/data-visualisation](../local-authority-district/data-visualisation)
 
 <p align="center">
-  <img width="1800" src="local-authority-district/data-visualisation/lad-cartogram-square-percentage-address-high-street.png" alt="Percentage number of addresses on the high street classified as retailing, residential and offices by local authority district">
+  <img width="1400" src="local-authority-district/data-visualisation/lad-cartogram-square-percentage-address-high-street.png" alt="Percentage number of addresses on the high street classified as retailing, residential and offices by local authority district">
 </p>
 
 <p align="center">
-  <img width="1800" src="local-authority-district/data-visualisation/lad-cartogram-square-percentage-address-high-street-london.png" alt="Percentage number of addresses on the high street classified as retailing, residential and offices by london borough">
-</p>
-
-<p align="center">
-  <img width="1800" src="local-authority-district/data-visualisation/lad-cartogram-square-median-price-paid-year-london-1995-2018.png" alt="Median price paid for residential property in London between 1995 - 2018 by borough">
+  <img width="1400" src="local-authority-district/data-visualisation/lad-cartogram-square-percentage-address-high-street-london.png" alt="Percentage number of addresses on the high street classified as retailing, residential and offices by london borough">
 </p>
 
 <p align="center">
@@ -39,7 +35,7 @@ The cartogram preserves the grouping of LADs into the UK regions (formerly Gover
 </p>
 
 <p align="center">
-  <img width="1000" src="local-authority-district/data-visualisation/lad-cartogram-square-wales-population-change-1991-2017.png" alt="Percentage population change in Wales between 1991 and 2017 by local authority district">
+  <img width="1400" src="local-authority-district/data-visualisation/lad-cartogram-square-wales-population-change-1991-2017.png" alt="Percentage population change in Wales between 1991 and 2017 by local authority district">
 </p>
 
 ### Features
