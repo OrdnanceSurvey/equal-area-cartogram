@@ -73,6 +73,24 @@ wales <- data.frame(
 # Region
 #
 
+# East Midlands
+east_midlands <- data.frame(
+  row = c(1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 9, 9, 9),
+  col = c(7, 8, 5, 6, 7, 8, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, 2, 3, 4, 5, 6, 7, 3, 4, 5, 6, 3, 4, 5, 6, 4, 5, 6, 4, 5, 6),
+  code = c("E07000142", "E07000137", "E07000034", "E07000033", "E07000138", "E07000136", "E07000032", "E07000038", "E07000170", "E07000174", "E07000171", "E07000139", "E07000140", "E07000037", "E06000015", "E07000036", "E07000172", "E06000018", "E07000173", "E07000141", "E07000035", "E07000134", "E07000039", "E07000176", "E07000175", "E06000017", "E07000132", "E06000016", "E07000130", "E07000133", "E07000129", "E07000135", "E07000150", "E07000153", "E07000131", "E07000154", "E07000152", "E07000151", "E07000155", "E07000156"),
+  name = c("West Lindsey", "East Lindsey", "Chesterfield", "Bolsover", "Lincoln", "Boston", "Amber Valley", "North East Derbyshire", "Ashfield", "Mansfield", "Bassetlaw", "North Kesteven", "South Holland", "High Peak", "Derby", "Erewash", "Broxtowe", "Nottingham", "Gedling", "South Kesteven", "Derbyshire Dales", "North West Leicestershire", "South Derbyshire", "Rushcliffe", "Newark and Sherwood", "Rutland", "Hinckley and Bosworth", "Leicester", "Charnwood", "Melton", "Blaby", "Oadby and Wigston", "Corby", "Kettering", "Harborough", "Northampton", "East Northamptonshire", "Daventry", "South Northamptonshire", "Wellingborough"),
+  stringsAsFactors = FALSE
+)
+
+# East of England
+east_of_england <- data.frame(
+  row = c(1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8),
+  col = c(7, 8, 9, 2, 3, 6, 7, 8, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 5, 6, 7, 8, 1, 8, 9, 8, 9, 10),
+  code = c("E07000147", "E07000144", "E07000145", "E06000031", "E07000010", "E07000146", "E07000149", "E07000148", "E07000011", "E07000012", "E07000008", "E07000009", "E07000143", "E07000203", "E07000244", "E06000055", "E06000056", "E06000032", "E07000099", "E07000242", "E07000245", "E07000200", "E07000202", "E07000096", "E07000240", "E07000243", "E07000095", "E07000073", "E07000077", "E07000067", "E07000071", "E07000076", "E07000103", "E07000098", "E07000241", "E07000072", "E07000068", "E07000070", "E07000074", "E07000102", "E07000066", "E07000075", "E06000034", "E07000069", "E06000033"),
+  name = c("North Norfolk", "Broadland", "Great Yarmouth", "Peterborough", "Fenland", "King's Lynn and West Norfolk", "South Norfolk", "Norwich", "Huntingdonshire", "South Cambridgeshire", "Cambridge", "East Cambridgeshire", "Breckland", "Mid Suffolk", "East Suffolk", "Bedford", "Central Bedfordshire", "Luton", "North Hertfordshire", "East Hertfordshire", "West Suffolk", "Babergh", "Ipswich", "Dacorum", "St Albans", "Stevenage", "Broxbourne", "Harlow", "Uttlesford", "Braintree", "Colchester", "Tendring", "Watford", "Hertsmere", "Welwyn Hatfield", "Epping Forest", "Brentwood", "Chelmsford", "Maldon", "Three Rivers", "Basildon", "Rochford", "Thurrock", "Castle Point", "Southend-on-Sea"),
+  stringsAsFactors = FALSE
+)
+
 # London
 london <- data.frame(
   row = c(1, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7),
@@ -133,24 +151,6 @@ south_west <- data.frame(
   col = c(6, 7, 8, 7, 8, 9, 6, 7, 8, 9, 5, 6, 7, 8, 9, 10, 5, 6, 7, 8, 9, 4, 5, 6, 8, 2, 3, 4, 5, 1),
   code = c("E07000080", "E07000081", "E07000083", "E07000082", "E07000078", "E07000079", "E06000024", "E06000023", "E06000025", "E06000030", "E07000043", "E07000246", "E07000188", "E06000022", "E07000187", "E06000054", "E07000046", "E07000042", "E07000040", "E07000189", "E06000058", "E07000047", "E07000045", "E07000041", "E06000059", "E06000052", "E06000026", "E07000044", "E06000027", "E06000053"),
   name = c("Forest of Dean", "Gloucester", "Tewkesbury", "Stroud", "Cheltenham", "Cotswold", "North Somerset", "Bristol, City of", "South Gloucestershire", "Swindon", "North Devon", "Somerset West and Taunton", "Sedgemoor", "Bath and North East Somerset", "Mendip", "Wiltshire", "Torridge", "Mid Devon", "East Devon", "South Somerset", "Bournemouth, Christchurch and Poole", "West Devon", "Teignbridge", "Exeter", "Dorset", "Cornwall", "Plymouth", "South Hams", "Torbay", "Isles of Scilly"),
-  stringsAsFactors = FALSE
-)
-
-# East Midlands
-east_midlands <- data.frame(
-  row = c(1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 9, 9, 9),
-  col = c(7, 8, 5, 6, 7, 8, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, 2, 3, 4, 5, 6, 7, 3, 4, 5, 6, 3, 4, 5, 6, 4, 5, 6, 4, 5, 6),
-  code = c("E07000142", "E07000137", "E07000034", "E07000033", "E07000138", "E07000136", "E07000032", "E07000038", "E07000170", "E07000174", "E07000171", "E07000139", "E07000140", "E07000037", "E06000015", "E07000036", "E07000172", "E06000018", "E07000173", "E07000141", "E07000035", "E07000134", "E07000039", "E07000176", "E07000175", "E06000017", "E07000132", "E06000016", "E07000130", "E07000133", "E07000129", "E07000135", "E07000150", "E07000153", "E07000131", "E07000154", "E07000152", "E07000151", "E07000155", "E07000156"),
-  name = c("West Lindsey", "East Lindsey", "Chesterfield", "Bolsover", "Lincoln", "Boston", "Amber Valley", "North East Derbyshire", "Ashfield", "Mansfield", "Bassetlaw", "North Kesteven", "South Holland", "High Peak", "Derby", "Erewash", "Broxtowe", "Nottingham", "Gedling", "South Kesteven", "Derbyshire Dales", "North West Leicestershire", "South Derbyshire", "Rushcliffe", "Newark and Sherwood", "Rutland", "Hinckley and Bosworth", "Leicester", "Charnwood", "Melton", "Blaby", "Oadby and Wigston", "Corby", "Kettering", "Harborough", "Northampton", "East Northamptonshire", "Daventry", "South Northamptonshire", "Wellingborough"),
-  stringsAsFactors = FALSE
-)
-
-# East of England
-east_of_england <- data.frame(
-  row = c(1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8),
-  col = c(7, 8, 9, 2, 3, 6, 7, 8, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 5, 6, 7, 8, 1, 8, 9, 8, 9, 10),
-  code = c("E07000147", "E07000144", "E07000145", "E06000031", "E07000010", "E07000146", "E07000149", "E07000148", "E07000011", "E07000012", "E07000008", "E07000009", "E07000143", "E07000203", "E07000244", "E06000055", "E06000056", "E06000032", "E07000099", "E07000242", "E07000245", "E07000200", "E07000202", "E07000096", "E07000240", "E07000243", "E07000095", "E07000073", "E07000077", "E07000067", "E07000071", "E07000076", "E07000103", "E07000098", "E07000241", "E07000072", "E07000068", "E07000070", "E07000074", "E07000102", "E07000066", "E07000075", "E06000034", "E07000069", "E06000033"),
-  name = c("North Norfolk", "Broadland", "Great Yarmouth", "Peterborough", "Fenland", "King's Lynn and West Norfolk", "South Norfolk", "Norwich", "Huntingdonshire", "South Cambridgeshire", "Cambridge", "East Cambridgeshire", "Breckland", "Mid Suffolk", "East Suffolk", "Bedford", "Central Bedfordshire", "Luton", "North Hertfordshire", "East Hertfordshire", "West Suffolk", "Babergh", "Ipswich", "Dacorum", "St Albans", "Stevenage", "Broxbourne", "Harlow", "Uttlesford", "Braintree", "Colchester", "Tendring", "Watford", "Hertsmere", "Welwyn Hatfield", "Epping Forest", "Brentwood", "Chelmsford", "Maldon", "Three Rivers", "Basildon", "Rochford", "Thurrock", "Castle Point", "Southend-on-Sea"),
   stringsAsFactors = FALSE
 )
 
