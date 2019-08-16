@@ -130,11 +130,13 @@ The geometries of the cartogram are provided in a single SVG file.
 
 ## License
 
-Contains National Statistics data © Crown copyright and database right 2019.
+If you use our cartogram data please acknowledge OS.
+
+This repo is licensed under the terms of the [Open Government Licence (OGL) v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Please see [../LICENSE.txt](../LICENSE.txt).
 
 Contains OS data © Crown copyright and database right 2019.
 
-This repo is licensed under the terms of the [Open Government Licence (OGL) v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Please see [../LICENSE.txt](../LICENSE.txt).
+Contains National Statistics data © Crown copyright and database right 2019.
 
 <img src="http://www.nationalarchives.gov.uk/images/infoman/ogl-symbol-41px-retina-black.png"
      alt="OGL Symbol"
