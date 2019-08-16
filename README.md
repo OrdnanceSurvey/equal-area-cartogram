@@ -20,7 +20,7 @@ The cartogram preserves the grouping of LADs into the UK regions (formerly Gover
 
 ## Examples
 
-[../local-authority-district/data-visualisation](../local-authority-district/data-visualisation)
+[../local-authority-district/data-visualisation](./local-authority-district/data-visualisation)
 
 <p align="center">
   <img width="1400" src="local-authority-district/data-visualisation/lad-cartogram-square-percentage-address-high-street.png" alt="Percentage number of addresses on the high street classified as retailing, residential and offices by local authority district">
@@ -100,13 +100,13 @@ The cartogram geometry is referenced against a arbitrary cartesian grid and does
 
 Each layer of the cartogram is provided as a seperate CSV file. The geometry is encoded using a well known text (WKT) representation.
 
-[../local-authority-district/data/csv](../local-authority-district/data/csv)
+[../local-authority-district/data/csv](./local-authority-district/data/csv)
 
 ### GeoPackage
 
 The layers of the cartogram are provided as individual tables / layers within a single SQLite database container.
 
-[../local-authority-district/data/geopackage](../local-authority-district/data/geopackage)
+[../local-authority-district/data/geopackage](./local-authority-district/data/geopackage)
 
 ### geofacet
 
@@ -114,13 +114,13 @@ The [geofacet](https://hafen.github.io/geofacet/) R package provides a ggplot2 f
 
 The R code and geofacet-specific CSV format for the cartogram is provided so that users can use the grid within the geofacet library and edit the grid via the ['Grid Designer App'](https://hafen.github.io/grid-designer/) if they want a different geofacet-grid representation. The R code and CSV files provide United Kingdom, Great Britain, country and regional grid coverage.
 
-[../local-authority-district/data/r-geofacet](../local-authority-district/data/r-geofacet)
+[../local-authority-district/data/r-geofacet](./local-authority-district/data/r-geofacet)
 
 ### SVG
 
 The geometries of the cartogram are provided in a single SVG file.
 
-[../local-authority-district/data/svg](../local-authority-district/data/svg)
+[../local-authority-district/data/svg](./local-authority-district/data/svg)
 
 ## Authors
 
@@ -132,7 +132,7 @@ The geometries of the cartogram are provided in a single SVG file.
 
 If you use our cartogram data please acknowledge OS.
 
-This repo is licensed under the terms of the [Open Government Licence (OGL) v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Please see [../LICENSE.txt](../LICENSE.txt).
+This repo is licensed under the terms of the [Open Government Licence (OGL) v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Please see [./LICENSE.txt](./LICENSE.txt).
 
 Contains OS data © Crown copyright and database right 2019.
 
